@@ -32,6 +32,12 @@
 $ npm install
 ```
 
+## Setting up the DB
+
+```
+docker run --name benji-playground -e POSTGRES_PASSWORD=dbPass135 -p 5430:5432 -d postgres
+```
+
 ## Running the app
 
 ```bash
